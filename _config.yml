@@ -1,0 +1,31 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Development for Dummies
+email: dwilbank@gmail.com
+description: Primarily my web development crib notes (mostly JavaScript and Ruby), expanded with explanations to hopefully make them useful for beginners.
+url: "http://dev4dummies.me/" # the base hostname & protocol for your site
+twitter_username:
+github_username:  dwilbank68
+
+gems: [jekyll-paginate]
+paginate: 5
+# Build settings
+markdown: kramdown
+permalink: /:title
+
+#Default settings
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "David Wilbanks"
+      layout: "post"
+      comments: true
