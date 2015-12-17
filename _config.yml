@@ -9,6 +9,7 @@
 title: Development for Dummies
 email: dwilbank@gmail.com
 description: Primarily my web development crib notes (mostly JavaScript and Ruby), expanded with explanations to hopefully make them useful for beginners.
+baseurl: '/dev4dummies'
 url: "http://dev4dummies.me/" # the base hostname & protocol for your site
 twitter_username:
 github_username:  dwilbank68
